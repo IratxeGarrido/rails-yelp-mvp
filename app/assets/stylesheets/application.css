@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+ .restaurants a {
+  text-decoration: none;
+ }
+
+ .restaurant-content {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+ }
+ .restaurant-functions {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+ }
